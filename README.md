@@ -21,7 +21,7 @@ This repository contains a MATLAB function designed to simulate and plot Time-SL
 - The function plots the results for each tissue type and sequence configuration and saves the figures as PDFs.
 
 ### Example Usage
-```matlab
+~~~
 tissues = {
     'Water', 2500, 1300;  
     'Milk', 1400, 80; 
@@ -30,6 +30,7 @@ tissues = {
 TEeffective_values = [50, 100, 150, 200, 300, 400];
 TI_values = 20:100:4000;
 TimeSlip_t2prep(tissues, TEeffective_values, TI_values);
+~~~
 
 ## Subroutines
 
